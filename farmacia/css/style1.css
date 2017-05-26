@@ -1,0 +1,198 @@
+div.top
+{
+	background-color: #1d3847; 
+}
+
+div.top > p
+{
+	color: #FFF;
+	padding: 1%;
+}
+
+form#search
+{
+	float: right;
+	width: 20%;
+	padding: 10px;
+}
+
+ul#user-main
+{
+	padding: 15px 0;
+}
+
+div#header
+{
+	background: -webkit-linear-gradient(top, #23a7ff 50%, #1971ff 100%, #008be8 50%);	
+	height: auto;
+	border-bottom: 3px solid #1d3847;
+}
+
+form#search
+{
+	width: 50%;
+	margin: 0 1%;
+	padding: 0;
+}
+
+form#search > input
+{
+	float: left;
+	margin-right: 2%;
+}
+
+form#search > input[type=text]:focus
+{
+	background-color: #FFF;
+	border: 1.5px solid #3B4658;
+	border-radius: 5px;
+}
+
+form#search > input[type=submit]
+{
+	border: none;
+	background-image: url('../img/lente.png');
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+	background-position: center center;
+	background-size: 30px 30px; 
+}
+
+div > h1
+{
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
+div.wrapper
+{
+	background: #FFF;
+	height: auto;
+	box-shadow: -0.05px 0.5px 3px 0.5px #1d3847;
+}
+
+div.box
+{
+	width: 20%;
+	height: auto;
+	float: left;
+	margin: 2.5%;
+	overflow: hidden;
+}
+
+div.box > input
+{
+	width: 80%;
+	margin: 1% 10%;
+}
+
+div.nome-prodotto
+{
+    width: 100%; 
+    text-align: center; 
+    height: 50px;
+    overflow: hidden;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+div.nome-prodotto > p
+{
+	line-height: 1.5;
+	text-align: center;
+	padding: 5px;
+}
+
+div.box-prezzi
+{
+	padding: 2% 0;
+	margin: 2% 0;
+}
+
+div.prezzo > p
+{
+	line-height: 2;
+	padding: 2%;
+}
+
+div#prezzo_fabrica > p
+{
+	text-decoration: line-through;
+	text-align: center;
+}
+
+div#prezzo_offerta > p
+{
+	background-color: green;
+	color: #FFF;
+	text-align: center;
+	border-radius: 4px;
+}
+
+div#titolo-area > h2
+{
+	border-bottom: 1px solid lightgrey;
+}
+
+form#form
+{
+	width: 50%;
+	height: auto;
+	margin: 5% 25%;
+	background: rgba(45, 45, 45, 0.2);
+	padding-bottom: 5%;
+	box-shadow: -0.05px 0.5px 3px 0.5px #1d3847;
+	border-radius: 5px 5px 0 0;
+}
+
+form#form > h3
+{
+	background: #1d3847;
+	border-radius: 5px 5px 0 0;
+	color: #FFF;
+	text-align: center;
+	padding: 10px;
+}
+
+form#form > input,
+form#form > label
+{
+	width: 80%;
+	height: auto;
+	padding: 5px;
+	margin: 2% 10%;
+}
+
+div.footer
+{
+	background: #1d3847;
+}
+
+div.footer > p
+{
+	color: #FFF;
+	text-align: right;
+	padding: 15px 10px;
+}
+
+ul#lista_pagine
+{
+	min-width: 8%;
+	width: 8%;
+	max-width: 80%;
+	height: auto;
+	margin: 2% auto;
+	background: rgba( 29, 56, 71, 1);
+	overflow: hidden;
+}
+
+ul#lista_pagine > li
+{
+	border-right: 1px solid grey;
+}
+
+ul#lista_pagine > li:last-child
+{
+	border-right: none;
+}

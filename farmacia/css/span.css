@@ -1,0 +1,58 @@
+span#logo
+{
+	width: 45px;
+	height: 45px;
+	float: left;
+	background: url('../img/logo1.png') no-repeat;
+	background-position: center center;
+	background-size: 35px 35px;
+	margin: 15px 5px 15px 40px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 45px;
+
+}
+
+span#img-login
+{
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: url(../img/login1.png) no-repeat;
+    background-size: 25px 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+span#carrello
+{
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: url(../img/carrello.png) no-repeat;
+    background-size: 25px 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+span#img-signup
+{
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: url(../img/signup.png) no-repeat;
+    background-size: 25px 25px;
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+span#home
+{
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: url(../img/home.png) no-repeat;
+    background-size: 25px 25px;
+    float: left;
+    margin-right: 5px;
+}

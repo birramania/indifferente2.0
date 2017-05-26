@@ -1,0 +1,76 @@
+div#main
+{
+	background: #1d3847;
+	height: 89.8vh;
+}
+
+ul > li
+{
+	float: none;
+	border-bottom: 1px solid grey;
+}
+
+ul > li:last-child
+{
+	border-bottom: none;
+}
+
+li > a
+{
+	text-align: left;
+
+}
+
+li > a:hover
+{
+	text-decoration: none;
+}
+
+div.wrapper
+{
+	height: 89.8vh;
+}
+
+div#wrapper
+{
+	overflow-y: auto;
+}
+
+form#form > select
+{
+	width: 80%;
+	padding: 5px;
+	margin: 2% 10%;
+}
+
+table
+{
+	width: 100%;
+	margin: 5% 0;
+	border-collapse: collapse;
+}
+
+tr > th,
+tr > td
+{
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid grey;
+}
+
+tr > th
+{
+	background: #1d3847;
+	color: #FFF;
+	font-weight: normal;
+}
+
+tr:nth-child(even) {
+
+    background-color: lightgrey;
+}
+
+td
+{
+	border-right: 1px solid grey;
+}

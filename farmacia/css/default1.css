@@ -1,0 +1,124 @@
+
+html
+{
+	font-size: 100%;
+}
+
+*
+{
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font-family: Sans-serif;
+}
+
+body
+{
+	background: #DEDEDE;
+}
+
+p
+{
+	line-height: 2;
+	margin: 0 0 0 0;
+}
+
+ul
+{
+	list-style: none;
+}
+
+ul > li
+{
+	float: left;
+}
+
+li > a
+{
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 0.5px 0.5px 0.5px #000;
+	font-size: 1.25em;
+}
+
+li > a:hover
+{
+	color: #FFF;
+	background: rgba(20, 20, 20, 0.6);
+}
+
+li > ul
+{
+	display: none;
+}
+
+li:hover > ul
+{
+	display: block;
+	width: 150%;
+	height: auto;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	background: #ccd2dd;
+	border-bottom: 3px solid #1d3847;
+}
+
+ul > div
+{
+	width: 18%;
+	height: auto;
+	float: left;
+	margin: 0 0.5%
+}
+
+div > li > h3
+{
+	text-align: left;
+	padding: 10px 0;
+	border-bottom: 1px solid grey;
+	font-size: 1.125em;
+	color: #1d3847;
+	text-shadow: 0.2px 0.2px 0.2px #000;
+}
+
+div > li > a
+{
+	text-align: left;
+	padding: 10px 0;
+	color: #000;
+	text-shadow: none;
+	font-size: 1em;
+}
+
+div > li > a:hover
+{
+	/*text-shadow: 0.5px 0.5px 0.5px #000;*/
+	background: transparent;
+	color: #000;
+	padding-left: 5%;
+}
+
+input
+{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #1d3847; 
+}
+
+input[type=button]:hover,
+input[type=submit]:hover
+{
+	background: orange;
+	color: #FFF;
+	text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+img
+{
+	width: 100%;
+	height: auto;
+}
